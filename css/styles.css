@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    padding: 0px;
+    margin: 0px; 
+    background-image: url(../acces/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+         
+}
+
+
+
+.mario{
+    animation-name: mariobros;
+    animation-duration: 20s;
+   position: relative;
+       
+}
+
+
+
+
+
+
+
+@keyframes mariobros {
+    
+    0% { top: 700%; left: 0%; }
+    5% {top: 700%; left: 8%}
+    9% {top: 1000%; left:8%}
+    14% {top: 900%; left:16%}
+    20% {top: 1000%; left:16%}
+    23% {top: 1000%; left:20%}
+    27% {top: 1350%; left:20%}
+    33% {top: 1350%; left:40%}
+    
+   
+    
+  }
+
